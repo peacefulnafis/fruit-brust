@@ -1,0 +1,25 @@
+/* ========= google fonts ======= */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+.carousel-item {
+  display: block;
+}
+
+.dropdown .dropdown-content {
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 576px) {
+  /* ======= banner button position fixing ======= */
+  .right-5 {
+    right: 0.25rem !important;
+  }
+  .left-5 {
+    left: 0.25rem !important;
+  }
+}
